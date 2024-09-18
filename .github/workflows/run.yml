@@ -3,7 +3,7 @@ name: Run
 on:
   workflow_dispatch:
     inputs:
-      deb:
+      deb: https://github.com/Sileo/Sileo/releases/download/2.5/org.coolstar.sileo_2.5_iphoneos-arm64.deb
         description: "Direct URL to deb file"
         required: true
 
